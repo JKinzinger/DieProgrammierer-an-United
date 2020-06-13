@@ -1,0 +1,185 @@
+﻿ *Projektarbeit – dieProgrammierer, Arbeitsdokumentation*
+|Datum|Bezeichnung|Inhalte|
+|-----+-----------+-------|
+|20.04.|Teamtreffen Nr.1|Siehe Protokoll Nr. 1|
+|24.04.|Teamtreffen Nr.2|Siehe Protokoll Nr. 2|
+|01.05.||Erstellung Spiralmodell|
+|02.05.|Beginn Zyklus 1||
+|||Zeitplan überarbeitet (Spiralmodell als Sammelvorgänge)|
+|09.05.|Teamtreffen Nr.3|Siehe Protokoll Nr. 3|
+|10.05.|Heimarbeit Janis|Arduino-Code verfeinert und in Blöcke unterteilt|
+|11.05.|Heimarbeit Hendric|Ersten Taster, testeshalber eingepflegt|
+|12.05.|Teamtreffen Nr.4| Siehe Protokoll Nr. 4|
+|13.05.|Heimarbeit|Proto2 Version 1 hinzugefügt (Janis)|
+|||Proto1 Version 1 hinzugefügt (Yannik)|
+|16.05.|Teamtreffen Nr.5| Siehe Protokoll Nr. 5|
+|16.05.|Heimarbeit Hendric|Tasterschaltung verfeinert|
+|17.05.|Heimarbeit Hendric|Tasterschaltung (Sensorsteuerung) vorläufig fertig (Hendric)|
+|21.05.|Heimarbeit Hendric|Tastersteuerung fertiggestellt|
+||Heimarbeit Janis|Wiki überarbeitet|
+|23.05.|Beginn Zyklus 2||
+|30.05.|Heimarbeit Janis|LSA.ino Code auf Verständlichkeit optimiert(|
+|||Taster für Sensor-/Zeitschaltung implementiert|
+|||BugFeature Bug01 hinzugefügt|
+|06.06.||LSA.ino Testfunktion implementiert|
+|13.06.|Beginn Zyklus 3||
+||Teamtreffen Nr. 6|Siehe Protokoll Nr. 6|
+|19.06.|Heimarbeit Michel|Buguntersuchung01 hinzugefügt|
+|20.06.|Teamtreffen Nr. 7|Siehe Protokoll Nr. 7|
+|21.06.|Heimarbeit Janis|Buguntersuchung01 Ergänzung hinzugefügt|
+||Heimarbeit Hendric|BugFeature Bug02 hinzugefügt|
+|24.06.|Heimarbeit Michel|Proto4 mit Straßenbahnpriorität erstellt|
+|26.06.|Heimarbeit Hendric|Proto4 weiterentwickelt|
+|||Pflichtenheft für P03 und P05 erweitert|
+|27.06.|Teamtreffen Nr. 8|Siehe Protokoll Nr. 8|
+||Heimarbeit Hendric|Buguntersuchung02 hinzugefügt|
+|||Buguntersuchung02 Ergänzung hinzugefügt|
+||Heimarbeit Michel|BugFeature Bug03 hinzugefügt|
+|28.06.|Heimarbeit Michel|Buguntersuchung03|
+|||Proto 5 mit Entfernungsmesser anstatt Taster Pin 20 eingefügt|
+|||Ultraschallsensor implementiert|
+||Heimarbeit Janis|Externes Review hinzugefügt|
+|29.06.|Heimarbeit Michel|Kommentar zur Funktion des Ultraschallsensors hinzugefügt|
+|30.06.|Heimarbeit Janis|Proto8 hinzugefügt|
+||Heimarbeit Michel|Internes Review hinzugefügt|
+||Heimarbeit Hendric|Externes Review hinzugefügt|
+|02.07.|Heimarbeit Janis|Internes Review hinzugefügt|
+|03.07.|Heimarbeit Michel|Externes Review hinzugefügt|
+|05.07.|Heimarbeit Michel|FeatureReport Feature01 hinzugefügt|
+|06.07.|Heimarbeit Yannik|Internes Review hinzugefügt|
+||Heimarbeit Janis|1. Testing hinzugefügt|
+|07.07.|Heimarbeit Michel|Erstes Testing erstellt|
+|10.07.|Heimarbeit Hendric|FeatureReport Feature02 hinzugefügt|
+|||Internes Review hinzugefügt|
+||Heimarbeit Hendric|1. Testing hinzugefügt|
+|||2. Testing hinzugefügt|
+||Heimarbeit Janis|2. Testing hinzugefügt|
+|11.07.|Heimarbeit Yannik|FeatureReport Feature03 hinzugefügt|
+||Heimarbeit Janis|FeatureReport Feature04 hinzugefügt|
+||Heimarbeit Michel|2. Testing erstellt|
+|12.07.|Heimarbeit Yannik|Helligkeitssteuerung implementiert|
+||Heimarbeit Michel|Aktivitätsdiagramm P07 hinzugefügt|
+|||Projektverlauf und Protokolle komplett überarbeitet|
+
+** *Protokoll Nr1. Kick-Off: 20.04.2017 (Teamtreffen Nr.1)* 
+
+*Zusammenfassung:* Besprechung der Ideen und geeignete Idee wurde gewählt.
+
+*** *Idee 1:*
+-	*Erklärung:* Etwas aus der Konstruktion als Software darstellen um dies schneller zu berechnen.
+
+-	*Komplexität:* Wahrscheinlich zu einfach.
+
+*** *Idee 2:*
+-	*Erklärung:* Kleiner Versuchsaufbau mit Sensoren und Funduino um die Geschwindigkeit zu messen und das Loggen dieser Geschwindigkeit.
+
+-	*Komplexität:* Wahrscheinlich zu einfach.
+
+*** *Idee 3:*
+-	*Erklärung:*  Musikbeleuchtung steuern durch Funduino und darauf vorgefertigte Programme laufen lassen, im Zweifel Aktivierung durch Sensor.
+
+-	*Komplexität:* Wahrscheinlich zu Komplex.
+
+*** *Idee 4:*
+-	*Erklärung:* Steuerung der Ampeln einer Kreuzung, durch beispielsweise Einbindung von Knöpfen, Zeitsteuerung der Ampeln, Veränderliche Steuerung nach Tageszeit, Veränderliche Steuerung durch Verkehrsaufkommen, Feuerwehrschaltung, Tramschaltung.
+
+-	*Komplexität:* Lässt sich selbst bestimmen, da Schaltung und Programm erweiterbar.
+
+
+** *Protokoll Nr2. 24.04.2017 (Teamtreffen Nr.2)* 
+
+*** *Agenda:*
+-	Erstellung eines Gant_Diagramms für Zeitplanung
+-	Erstellung von Meilensteinen
+-	Sonstiges
+
+*** *Aufgaben für nächste Woche:*
+-	Use-Case Diagramme erstellen
+
+
+** *Protokoll Nr3. 09.05.2017 (Teamtreffen Nr.3)* 
+
+*** *Agenda:*
+-	Prozessmodell in Github hochladen
+-	Bilder auf Github hochladen
+-	Erstes Programm für den Arduino schreiben
+-	Grundstein der Signalanlage programmieren
+-	Formatierung der Kundenanforderung überarbeiten
+-	Erstes Use-Case-Diagramm hochladen
+-	Sonstiges
+
+*** *Aufgaben für nächste Woche:*
+-	Janis & Hendric: A01 und A02 in Code umsetzen
+
+
+** *Protokoll Nr4. 12.05.2017 (Teamtreffen Nr.4)* 
+
+*** *Agenda:*
+-	Anforderungen aufteilen
+
+-	Pflichtenheft erstellen/aufteilen
+
+-	Schaltbilder erstellen für verschiedene Protypen
+
+-	Aufgabenverteilung für das Programmieren
+
+-	Code testen und vereinfachen bzw. variablen delay hinzufügen
+
+-	Sonstiges
+
+*** *Aufgaben für nächste Woche:*
+-	Yannik: Schaltbilder für Prototypen.
+-	Michel:	Am Pflichetenheft Arbeiten und Ergebnisse hochladen.
+-	Janis:	Überarteiteten Zeitplan und zweiten Prototypen für Ampelschaltung erstellen.
+-	Hendric: Weitere Prototypen erstellen. 
+
+
+** *Protokoll Nr5. 16.05.2017 (Teamtreffen Nr.5)* 
+
+*** *Agenda:*
+-	Bearbeitung der Allgemeinen Projektarbeit
+-	Sonstiges
+-	Janis: Taster für Zeitschaltung implementieren
+
+*** *Aufgaben für nächste Woche:*
+-	Tasterschaltung überarbeiten
+
+
+** *Protokoll Nr6. 13.06.2017 (Teamtreffen Nr.6)* 
+
+*** *Agenda:*
+-	To do Liste erstellen
+-	Sonstiges
+
+*** *Aufgaben für nächste Woche:*
+-	Bug 01 untersuchen und beheben
+
+
+** *Protokoll Nr7. 20.06.2017 (Teamtreffen Nr.7)* 
+
+*** *Agenda:*
+-	Review des ersten Zyklus
+-	Fehleranalyse des Codes
+-	Sonstiges
+
+*** *Aufgaben für nächste Woche:*
+-	Pflichtenheft überarbeiten
+-	Michel: Straßenbahnpriorität realisieren
+
+
+** *Protokoll Nr8. 27.06.2017 (Teamtreffen Nr.8)* 
+
+*** *Agenda:*
+-	LSA weitereintwicheln
+-	To do Liste für finale Abgabe ergänzen
+-	Sonstiges
+
+*** *Aufgaben für nächste Woche:*
+-	Reviews anfertigen
+-	Aktivitätsdiagramme hinzufügen
+-	Michel: Projektverlauf ergänzen und formatieren  
+
+
+
+** *Finales Schaltbild:*
+[[images/LSA_Yannik_06_07_17.PNG]]
